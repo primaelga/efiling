@@ -1,0 +1,47 @@
+<!-- patTemplate:tmpl name="document" -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<?php
+    session_start(); 
+?>
+<html>
+	<head>		
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="Content-Type" CONTENT="text/html; charset=ISO-8859-1">
+			
+        <!--<link rel="stylesheet" type="text/css" href="{CONFIG_BASEDIR}script/ext/shared/example.css" />-->
+		<!--<script type="text/javascript" src="{CONFIG_BASEDIR}script/yaxyzAXPITyxazyb--.php"></script>-->		
+		<script type="text/javascript" src="{CONFIG_BASEDIR}script/ext/shared/include-ext.js"></script>
+		<script type="text/javascript" src="{CONFIG_BASEDIR}script/ext/shared/options-toolbar.js"></script>
+		<script type="text/javascript" src="{CONFIG_BASEDIR}script/ext/efiling/efiling.js"></script>
+           
+	<style>
+		
+	.navbar {min-height: 60px;}	
+	.navbar-inverse {background-color: #ffffff; border-color: #d3d3d3; box-shadow: 0 -20px 10px 20px black;}	
+	.navbar-inverse .navbar-brand {color: #efefef;}	
+	.navbar-brand {font-size: 24px; padding: 15px 20px; height: 60px; }	
+	.navbar-brand>img {display: block; position: fixed; height: 55px; top: 2px; left: 30px;}	
+	.navbar-brand:focus,
+	.navbar-brand:hover{text-decoration:none}
+	.navbar-brand>img{display:block}	
+	.navbar-fixed-top{position:fixed;right:0;left:0;z-index:1030}	
+	.navbar-header{margin-right:-15px;	margin-left:-15px}	
+        .navbar-user{position: fixed; right: 50px; color:blue;}
+        .navbar-logout {font-size: 15px; position: fixed; right: 20px; margin-right: -10px; height: 20px; color: red;
+        }
+	</style>
+	</head	
+	<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#/"><img src="{CONFIG_BASEDIR}images/Telkomsel_Logo.png"></a>
+            <a class="navbar-logout" href="{CONFIG_BASEDIR}login/logout.php">Logout<img src="{CONFIG_BASEDIR}images/Logout.png"/></a>
+        </div>
+        
+    </nav>	
+	<div id="panel" style="padding-top:60px;" > </div>
+	</body>
+</html>
+
+<!-- /patTemplate:tmpl -->
+
